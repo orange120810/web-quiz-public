@@ -1,0 +1,39 @@
+body{
+    font-family: fantasy;
+}
+
+h2{
+    border-bottom: 1px solid #1babe3;
+}
+
+ul li ,ol li{
+    padding: 1em ;
+    list-style-position: inside;
+}
+
+ol.answers {
+    list-style: upper-alpha;
+}
+
+ol.answers li:hover{
+    border:0.1em solid #1babe3 ;
+    background-color: #9dc6d655;
+    padding:0.9em;
+    cursor: pointer;
+}
+
+div#section-correct-answer{
+    display:none
+}
+
+#main {
+    padding: 0 1.5em;
+}
+
+div.section{
+    margin-top: 2em;
+}
+
+span#correct-answer {
+    font-weight: bold;
+}
